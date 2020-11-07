@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+h1 {
+font-family: 'Tenor Sans', sans-serif;
+font-size: 55px;
+text-shadow: 2px 2px 5px #640e23;
+} 
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Tenor Sans', sans-serif;
+}
+.navigation-wrapper {
+    height: 190px;
+    background-color: white;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+   
+}
+
+.left-column {
+    display: flex;
+    align-items: center;
+}
+
+.header-styles {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 1em;
+}
+
+.center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 40px;
+    width: 500px;
+}
+
+.center-column .logo {
+   display: flex;
+   justify-content: center;
+}
+
+.logo img {
+   width: 144px;
+   height: 100%;
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    width: 70px;
+    text-align: center;
+}
+
+.nav-link a {
+   font-family: 'Tenor Sans', sans-serif;
+   color: #640e23;
+   text-decoration: none;
+   transition: 0.5s;
+}
+
+.nav-link a:hover {
+   color: #bcca99;
+   letter-spacing: 2px;
+}
+
+.right-column {
+   display: flex;
+   align-items: auto;
+}
+
+.icon {
+  
+}
+
+.icon-mr {
+    margin-right: 15px;
+}
+
+.icon-ml {
+    margin-left: 15px;
+}
+
+.homepage {
+   background-image:url(assets/healing\ background.png);
+   padding: 100px;
+   height: 300px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.top-heading h1 {
+  padding-top: 50px;
+  color: white;
+  text-align: center;
+}
+
+.bottom-heading {
+   background-color: none;
+   color:#640e23;
+   padding: 1px 20px;
+   margin-top: 15px;
+   width: 107px;
+   border-radius: 2px;
+}
+
+.features-section {
+   height: 400px;
+   background-color: #FDE8E2;
+   border-top: 10px solid white;
+   font-family: 'Tenor Sans', sans-serif;
+   box-shadow: inset 0px -26px 50px -8px rgba(0,0,0,0.58);
+
+
+}
+
+.offers-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    
+}
+
+.offers img {
+height: 250px;
+}
+
+
+
+.offers :nth-child(1) {
+    font-size: 3em;
+}
+
+.offers :nth-child(2) {
+    font-size: 1.5em;
+    font-weight: 900;
+    height: 50px;
+    transition: 1s;
+}
+
+.offers :nth-child(2):hover {
+    letter-spacing: 1px;
+}
+
+.offers :nth-child(3) {
+    letter-spacing: 2px;
+}
